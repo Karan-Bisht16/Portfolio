@@ -1,22 +1,55 @@
-import React from "react";
+import { useEffect, useState } from "react";
 import Dot from "./Dot";
 // import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 // import { Link } from "react-scroll";
 import profileImage from "../assets/img-profile-image.png";
 
 function Home() {
+    const letters = `!#$%&0123456789?@ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz|`;
+    const values = ["websites", "ui/ux", "web apps"];
+    const [valueIndex, setValueIndex] = useState(0);
+    const maxLengthOfValue = values[valueIndex].length;
+    const paceOfRandomWords = 40;
+    const frequencyInterval = 3;
+    const spacingBetweeenValues = maxLengthOfValue * paceOfRandomWords * frequencyInterval * 2;
+
+    useEffect(() => {
+        const interval = setInterval(() => {
+            setValueIndex((valueIndex + 1) % values.length);
+        }, spacingBetweeenValues);
+        return () => clearInterval(interval);
+    }, [valueIndex, values.length, spacingBetweeenValues]);
+
+    useEffect(() => {
+        const element = document.querySelector("#scrambledText");
+        let iteration = 0;
+        const interval = setInterval(() => {
+            element.innerText = values[valueIndex].split("")
+                .map((letter, index) => {
+                    if (index < iteration) {
+                        return values[valueIndex][index];
+                    }
+                    return letters[Math.floor(Math.random() * letters.length)]
+                }).join("");
+            if (iteration >= values[valueIndex].length) {
+                clearInterval(interval);
+            }
+            iteration += 1 / frequencyInterval;
+        }, paceOfRandomWords);
+    });
+
     return (
-        <li class="mb-10 ms-4">
+        <li className="mb-10 ms-4">
             <Dot />
             <div name="home" className="md:flex md:gap-16 xl:gap-72">
                 <div>
-                    <time class="text-md font-normal leading-none text-gray-800 dark:text-gray-400">&lt;start/&gt;</time>
-                    <h3 class="text-4xl sm:text-5xl font-semibold">
+                    <time className="text-md font-normal leading-none text-gray-800 dark:text-gray-400">&lt;start/&gt;</time>
+                    <h3 className="text-4xl sm:text-5xl font-semibold">
                         Hi, my name is
-                        <span className="text-5xl sm:text-6xlfont-bold text-violet-700"> Karan Bisht</span>
+                        <span className="text-5xl sm:text-6xl font-bold text-violet-700"> Karan Bisht</span>
                     </h3>
-                    <p class="mt-2 mb-8 text-xl sm:text-3xl font-normal text-gray-600 dark:text-gray-400">
-                        I <i>design</i> and develop
+                    <p className="mt-2 mb-8 text-xl sm:text-3xl font-normal text-gray-600 dark:text-gray-400">
+                        I <i>design</i> and develop <span id="scrambledText" className="font-bold text-2xl sm:text-4xl text-slate-800 dark:text-white">Websites</span>
                     </p>
                 </div>
                 <img

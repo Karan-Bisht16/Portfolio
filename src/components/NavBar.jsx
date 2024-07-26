@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { Link } from "react-scroll";
 import ToggleTheme from "./ToggleTheme";
-// import { IoSunnyOutline, IoMoonOutline } from "react-icons/io5";
 
 function NavBar(props) {
     const { theme, handleToggleTheme } = props;
@@ -14,7 +13,7 @@ function NavBar(props) {
         { id: 3, link: "portfolio" },
         { id: 4, link: "tech stack" },
         { id: 5, link: "contact" },
-    ];
+    ];  
 
     return (
         <div className="flex justify-between items-center w-full h-20 px-4 z-10 fixed bg-transparent text-slate-800 dark:text-white">
@@ -36,14 +35,7 @@ function NavBar(props) {
                         </Link>
                     </li>
                 ))}
-                <ToggleTheme size={6} theme={theme} handleToggleTheme={handleToggleTheme} />
-                {/* <div onClick={handleToggleTheme} className={`cursor-pointer w-10 justify-center flex`}>
-                    {theme === "dark" ?
-                        <IoMoonOutline className={`size-6 transition ease-in-out hover:text-gray-400 hover:scale-125`} />
-                        :
-                        <IoSunnyOutline className={`size-6 scale-125 transition ease-in-out hover:text-yellow-300 hover:scale-150`} />
-                    }
-                </div> */}
+                <ToggleTheme mobile={false} theme={theme} handleToggleTheme={handleToggleTheme} />
             </ul>
 
             <div
@@ -69,7 +61,7 @@ function NavBar(props) {
                             </Link>
                         </li>
                     ))}
-                    <ToggleTheme size={10} sx="py-6" theme={theme} handleToggleTheme={handleToggleTheme} />
+                    <ToggleTheme mobile={true} theme={theme} handleToggleTheme={handleToggleTheme} />
                 </ul>
             )}
         </div>
