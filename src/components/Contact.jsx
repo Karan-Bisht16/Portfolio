@@ -3,7 +3,7 @@ import { Heading, Paragraph } from "./subcomponents/TextSubComponents";
 
 function Contact() {
     return (
-        <li className="sm:pt-16 mb-10 ms-4">
+        <li className="sm:pt-16 mb-16 sm:mb-10 ms-4">
             <Dot />
             <div name="contact" className="relative -top-4">
                 <Heading title="Contact" />
@@ -19,17 +19,17 @@ function Contact() {
                         >
                             <input
                                 type="text" name="name" placeholder="Enter your name" required autoComplete="off"
-                                className="p-2 bg-transparent border-2 border-slate-700 dark:border-white rounded-md focus:outline-none"
+                                className="p-2 bg-transparent border-2 border-slate-700 dark:border-gray-400 rounded-md focus:outline-none"
                             />
                             <input
                                 type="email" name="email" placeholder="Enter your email" required autoComplete="off"
-                                className="my-4 p-2 bg-transparent border-2 border-slate-700 dark:border-white rounded-md focus:outline-none"
+                                className="my-4 p-2 bg-transparent border-2 border-slate-700 dark:border-gray-400 rounded-md focus:outline-none"
                             />
                             <textarea
                                 name="message" placeholder="Enter your message" rows="10" required
-                                className="p-2 bg-transparent border-2 border-slate-700 dark:border-white rounded-md focus:outline-none"
+                                className="p-2 bg-transparent border-2 border-slate-700 dark:border-gray-400 rounded-md focus:outline-none"
                             />
-                            <button className="text-xl text-white bg-[#0090c1] px-4 py-3 my-8 mx-auto flex items-center rounded-md border-2 border-[#0090c1] hover:text-[#0090c1] hover:bg-white">
+                            <button className="text-xl text-white px-4 py-3 my-8 mx-auto flex items-center rounded-md border-2 bg-slate-700 dark:bg-slate-800 border-slate-700 dark:border-gray-400 hover:text-slate-700 hover:dark:text-gray-900 hover:bg-white hover:dark:bg-gray-400">
                                 Let's connect
                             </button>
                         </form>

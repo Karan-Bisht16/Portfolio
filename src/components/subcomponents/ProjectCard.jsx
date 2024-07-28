@@ -4,7 +4,7 @@ import { ButtonIcon } from "./TextSubComponents";
 import { FaCode } from "react-icons/fa";
 
 function ProjectCard({ portfolio }) {
-    const { src, websiteLink, githubRepositoryLink } = portfolio;
+    const { src, websiteLink, githubRepositoryLink, content } = portfolio;
 
     return (
         <motion.div
@@ -22,25 +22,21 @@ function ProjectCard({ portfolio }) {
                     <ButtonIcon link={websiteLink} text="Website Demo" icon={<MdWeb />} sx="-left-[44px]" />
                     <ButtonIcon link={githubRepositoryLink} text="GitHub Repository" icon={<FaCode />} sx="-left-[57px]" />
                 </div>
-                <div 
-                    className="absolute top-0 left-0 w-full h-full hidden 
-                    border-slate-800
-                    bg-violet-800
-                    sm:rounded-tr-lg 
-                    sm:rounded-bl-none
-                    rounded-bl-lg 
-                    rounded-br-lg 
-                    sm:group-hover/card:translate-x-full group-hover/card:z-30 
+                <motion.div
+                    initial={{ opacity: 0 }}
+                    whileInView={{ opacity: 1 }}
+                    transition={{ duration: 0.1 }}
+                    className="absolute top-0 left-0 w-full h-full text-sm hidden p-2 bg-gradient-to-b from-gray-200 to-violet-400 dark:from-slate-800 dark:to-black
+                    sm:rounded-tr-lg sm:rounded-bl-none
+                    rounded-bl-lg rounded-br-lg 
+                    sm:group-hover/card:translate-x-full 
+                    group-hover/card:block group-hover/card:z-30 
                     sm:group-hover/card:hidden 
-                    group-hover/card:block 
                     sm:group-hover/card:translate-y-0 
-                    group-hover/card:translate-y-full
-                    transition
-                    ease-linear
-                    duration-1000
-                    "
+                    group-hover/card:translate-y-[98%]"
                 >
-                </div>
+                    {content}
+                </motion.div>
             </div>
         </motion.div >
     );

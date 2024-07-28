@@ -11,7 +11,7 @@ function About() {
                     {<span>
                         Alright let's do this one last time...
                         <br />
-                        My name is <span className="text-white">Karan Bisht</span>, I am a MERN stack Web Developer and
+                        My name is <span className="text-violet-700 dark:text-white">Karan Bisht</span>, I am a MERN stack Web Developer and
                         for 1.5 year I've been the one and only Web Developer *in my house*.
                         <br /><br />
                         [<i>insert "what a day..."</i>]

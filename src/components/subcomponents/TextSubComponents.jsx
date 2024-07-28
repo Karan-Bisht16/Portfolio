@@ -15,7 +15,7 @@ export const Paragraph = ({ content }) => {
     return (
         <motion.p
             initial={{ x: -20, opacity: 0 }} whileInView={{ x: 0, opacity: 1 }} transition={{ duration: 0.5 }}
-            className="max-w-screen-xl text-justify my-2 text-xl font-normal text-gray-600 dark:text-gray-400"
+            className="max-w-screen-xl my-2 text-xl font-normal text-gray-600 dark:text-gray-400"
         >
             {content}
         </motion.p>
