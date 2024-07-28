@@ -4,7 +4,7 @@ export const Heading = ({ title }) => {
     return (
         <motion.h3
             initial={{ x: -20, opacity: 0 }} whileInView={{ x: 0, opacity: 1 }} transition={{ duration: 0.5 }}
-            className="font-semibold text-4xl sm:text-5xl mb-4"
+            className="font-semibold mb-4 text-4xl sm:text-5xl pt-1 sm:pt-0"
         >
             {title}
         </motion.h3>
