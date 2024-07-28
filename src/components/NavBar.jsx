@@ -17,7 +17,7 @@ function NavBar(props) {
 
     return (
         <div className="flex justify-between items-center w-full h-20 px-4 fixed bg-transparent text-slate-800 dark:text-white bg-gradient-to-b from-violet-200 dark:from-black to-transparent">
-            <h1 className="text-3xl sm:text-5xl font-extrabold ml-2 mb-2 select-none">
+            <h1 className="text-3xl sm:text-5xl font-extrabold ml-2 mb-2 select-none flex items-center">
                 &lt;
                 <span className="font-light">Karan</span>
                 <span className="font-medium text-violet-700">/</span>

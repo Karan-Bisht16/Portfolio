@@ -26,7 +26,7 @@ function ProjectCard({ portfolio }) {
                     initial={{ opacity: 0 }}
                     whileInView={{ opacity: 1 }}
                     transition={{ duration: 0.1 }}
-                    className="absolute top-0 left-0 w-full h-full text-sm hidden p-2 bg-gradient-to-b from-gray-200 to-violet-400 dark:from-slate-800 dark:to-black
+                    className="absolute top-0 left-0 w-full h-full hidden p-2 bg-gradient-to-b from-gray-200 to-violet-400 dark:from-slate-800 dark:to-black
                     sm:rounded-tr-lg sm:rounded-bl-none
                     rounded-bl-lg rounded-br-lg 
                     sm:group-hover/card:translate-x-full 
