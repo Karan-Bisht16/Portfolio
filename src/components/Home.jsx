@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
-import Dot from "./Dot";
-// import { MdOutlineKeyboardArrowRight } from "react-icons/md";
-// import { Link } from "react-scroll";
+import { motion } from "framer-motion";
+import Dot from "./subcomponents/Dot";
 import profileImage from "../assets/img-profile-image.png";
 
 function Home() {
@@ -10,8 +9,8 @@ function Home() {
     const [valueIndex, setValueIndex] = useState(0);
     const maxLengthOfValue = values[valueIndex].length;
     const paceOfRandomWords = 40;
-    const frequencyInterval = 3;
-    const spacingBetweeenValues = maxLengthOfValue * paceOfRandomWords * frequencyInterval * 2;
+    const frequencyInterval = 5;
+    const spacingBetweeenValues = maxLengthOfValue * paceOfRandomWords * frequencyInterval * 1.5;
 
     useEffect(() => {
         const interval = setInterval(() => {
@@ -38,21 +37,32 @@ function Home() {
         }, paceOfRandomWords);
     });
 
+    const animateContainer = (delay) => ({
+        hidden: { x: -20, opacity: 0 },
+        visible: { x: 0, opacity: 1, transition: { duration: 0.5, delay: delay } }
+    });
+
     return (
-        <li className="mb-10 ms-4">
+        <li className="py-4 mb-10 ms-4">
             <Dot />
             <div name="home" className="md:flex md:gap-16 xl:gap-72">
                 <div>
                     <time className="text-md font-normal leading-none text-gray-800 dark:text-gray-400">&lt;start/&gt;</time>
-                    <h3 className="text-4xl sm:text-5xl font-semibold">
+                    <motion.h3 variants={animateContainer(0)} initial="hidden" animate="visible" className="text-4xl sm:text-5xl font-semibold">
                         Hi, my name is
                         <span className="text-5xl sm:text-6xl font-bold text-violet-700"> Karan Bisht</span>
-                    </h3>
-                    <p className="mt-2 mb-8 text-xl sm:text-3xl font-normal text-gray-600 dark:text-gray-400">
+                    </motion.h3>
+                    <motion.p variants={animateContainer(0.25)} initial="hidden" animate="visible" className="mt-2 text-xl sm:text-3xl font-normal text-gray-600 dark:text-gray-400">
                         I <i>design</i> and develop <span id="scrambledText" className="font-bold text-2xl sm:text-4xl text-slate-800 dark:text-white">Websites</span>
-                    </p>
+                    </motion.p>
+                    <motion.p variants={animateContainer(0.5)} initial="hidden" animate="visible" className="mb-8 text-md sm:text-2xl font-normal text-gray-600 dark:text-gray-400">
+                        Let me show <i className="font-bold">you</i>...
+                    </motion.p>
                 </div>
-                <img
+                <motion.img
+                    initial={{ x: 20, opacity: 0 }}
+                    animate={{ x: 0, opacity: 1 }}
+                    transition={{ duration: 0.5, delay: 0 }}
                     src={profileImage}
                     alt="my profile"
                     className="rounded-2xl resize-none mx-auto w-11/12 md:w-72 xl:w-96"
@@ -64,42 +74,3 @@ function Home() {
 };
 
 export default Home;
-// <div
-//     name="home"
-//     className="h-screen w-full mt-20 dark:bg-gradient-to-b dark:from-black dark:to-violet-950"
-// >
-//     <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
-//         <div className="flex flex-col justify-center h-full">
-//             <h2 className="text-4xl sm:text-7xl font-bold text-white">
-//                 I'm a Full Stack Developer
-//             </h2>
-//             <p className="text-gray-500 py-4 max-w-md">
-//                 I have 8 years of experience building and desgining software.
-//                 Currently, I love to work on web application using technologies like
-//                 React, Tailwind, Next JS and GraphQL.
-//             </p>
-
-//             <div>
-//                 <Link
-//                     to="portfolio"
-//                     smooth
-//                     duration={500}
-//                     className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer"
-//                 >
-//                     Portfolio
-//                     <span className="group-hover:rotate-90 duration-300">
-//                         <MdOutlineKeyboardArrowRight size={25} className="ml-1" />
-//                     </span>
-//                 </Link>
-//             </div>
-//         </div>
-
-//         <div>
-//             <img
-//                 src={profileImage}
-//                 alt="my profile"
-//                 className="rounded-2xl mx-auto sm:w-1/2"
-//             />
-//         </div>
-//     </div>
-// </div>
