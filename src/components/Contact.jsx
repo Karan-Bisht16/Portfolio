@@ -3,7 +3,7 @@ import { Heading, Paragraph } from "./subcomponents/TextSubComponents";
 
 function Contact() {
     return (
-        <li className="sm:pt-16 mb-16 sm:mb-10 ms-4">
+        <li className="ms-4 select-none sm:pt-16 mb-16 sm:mb-10">
             <Dot />
             <div name="contact" className="relative -top-4">
                 <Heading title="Contact" />

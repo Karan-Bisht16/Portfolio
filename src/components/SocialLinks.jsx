@@ -24,7 +24,7 @@ function SocialLinks() {
         {
             icon: <BsFillPersonLinesFill size={30} />,
             child: (<><BsFillPersonLinesFill size={30} />Resume</>),
-            href: "../src/assets/Karan Bisht - Resume.pdf",
+            href: "./assets/Karan Bisht - Resume.pdf",
             style: "rounded-bl-md",
             download: true,
         },

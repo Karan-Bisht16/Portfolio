@@ -4,7 +4,7 @@ export const Heading = ({ title }) => {
     return (
         <motion.h3
             initial={{ x: -20, opacity: 0 }} whileInView={{ x: 0, opacity: 1 }} transition={{ duration: 0.5 }}
-            className="font-semibold mb-4 text-4xl sm:text-5xl pt-1 sm:pt-0"
+            className="font-semibold mb-4 select-none text-4xl sm:text-5xl pt-1 sm:pt-0"
         >
             {title}
         </motion.h3>
@@ -15,7 +15,7 @@ export const Paragraph = ({ content }) => {
     return (
         <motion.p
             initial={{ x: -20, opacity: 0 }} whileInView={{ x: 0, opacity: 1 }} transition={{ duration: 0.5 }}
-            className="max-w-screen-xl my-2 text-xl font-normal text-gray-600 dark:text-gray-400"
+            className="max-w-screen-xl my-2 text-xl font-normal select-none text-gray-600 dark:text-gray-400"
         >
             {content}
         </motion.p>

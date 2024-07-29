@@ -45,7 +45,7 @@ function Home() {
     return (
         <li className="py-4 mb-10 ms-4">
             <Dot />
-            <div name="home" className="md:flex md:gap-16 xl:gap-72">
+            <div name="home" className="md:flex md:gap-16 xl:gap-72 select-none">
                 <div>
                     <time className="text-md font-normal leading-none text-gray-800 dark:text-gray-400">&lt;start/&gt;</time>
                     <motion.h3 variants={animateContainer(0)} initial="hidden" animate="visible" className="text-4xl sm:text-5xl font-semibold">

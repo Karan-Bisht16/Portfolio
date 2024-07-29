@@ -6,7 +6,7 @@ function SkillCard(props) {
             <div className={`mx-auto scale-[4.5] ${color}`}>
                 {src}
             </div>
-            <div className="mt-8">
+            <div className="mt-8 select-none">
                 {title}
             </div>
         </div>
