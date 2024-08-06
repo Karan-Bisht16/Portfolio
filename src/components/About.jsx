@@ -19,7 +19,7 @@ function About() {
                         I'm pretty sure you know the rest... right?!
                         You see, I made some projects and some more, maybe too many, made some dicy choices - don't just buy any cheap course online.
                         Then some time passed blah... blah... blah... super boring,
-                        I broke my back. Got my vision screwed. I buired my sanity. Me and my love for web dev, got split up.
+                        I broke my back. Got my vision screwed. I buried my sanity. Me and my love for web dev, got split up.
                         But I handled it like a champion!
                         <br /><br />
                         [<i>insert soft sobbing</i>]
