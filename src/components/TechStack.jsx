@@ -2,11 +2,12 @@ import { FaNodeJs, FaHtml5, FaJs, FaCss3Alt, FaReact, FaJava, FaGitAlt, FaGithub
 import { SiExpress, SiVercel, SiMongodb, SiRedux, SiReactrouter, SiJquery } from "react-icons/si";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { motion } from "framer-motion";
-import Dot from "./subcomponents/Dot";
-import SkillCard from "./subcomponents/SkillCard";
-import { Heading, Paragraph } from "./subcomponents/TextSubComponents";
+import Dot from "./subComponents/Dot";
+import SkillCard from "./subComponents/SkillCard";
+import { Heading, Paragraph } from "./subComponents/TextSubComponents";
 
-function TechStack() {
+const TechStack = () => {
+    // Array of tech skills with icons, titles, and styles
     const techs = [
         { src: <FaHtml5 />, title: "HTML", color: "text-orange-500", shadow: "shadow-orange-500" },
         { src: <FaCss3Alt />, title: "CSS", color: "text-[#214ce5]", shadow: "shadow-[#214ce5]" },
@@ -27,20 +28,18 @@ function TechStack() {
     ];
 
     return (
-        <li className="sm:pt-16 mb-10 ms-4">
+        <li name="tech stack" className="select-none pt-4 sm:pt-16 mb-4 ms-4">
             <Dot />
-            <div name="tech stack" className="relative -top-4">
+            <div className="relative -top-4">
                 <Heading title="Tech Stack" />
                 <Paragraph content=
                     {`These are the technologies I've worked with:`}
                 />
-                <div className="max-w-screen-md mx-auto w-full grid grid-cols-2 sm:grid-cols-4 gap-8 text-center py-8 px-12 sm:px-0">
+                <div className="max-w-screen-lg mx-auto w-full grid grid-cols-2 sm:grid-cols-4 gap-8 text-center py-8 px-12 sm:px-0">
                     {techs.map(({ src, title, color, shadow }, index) => (
                         <motion.div
-                            initial={{ x: -20, opacity: 0 }}
-                            whileInView={{ x: 0, opacity: 1 }}
-                            transition={{ duration: 0.5 }}
                             key={index}
+                            initial={{ x: -20, opacity: 0 }} whileInView={{ x: 0, opacity: 1 }} transition={{ duration: 0.5 }}
                             className={`shadow-md hover:scale-105 duration-200 py-2 rounded-lg ${shadow}`}
                         >
                             <SkillCard title={title} src={src} color={color} />
@@ -48,7 +47,6 @@ function TechStack() {
                     ))}
                 </div>
             </div>
-
         </li>
     );
 };

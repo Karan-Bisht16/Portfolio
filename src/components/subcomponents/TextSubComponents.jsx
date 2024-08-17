@@ -22,19 +22,11 @@ export const Paragraph = ({ content }) => {
     );
 };
 
-export const ButtonLink = ({ link, text }) => {
-    return (
-        <a href={link} target="_blank" rel="noreferrer" className="w-1/2 px-6 my-3 text-center hover:text-violet-700">
-            {text}
-        </a>
-    );
-}
-
 export const ButtonIcon = ({ link, text, icon, sx }) => {
     return (
         <div className="group/link relative">
             <a href={link} target="_blank" rel="noreferrer">
-                <div className="scale-150 text-white bg-violet-800 hover:bg-violet-950 rounded-full p-2">
+                <div className="h-14 w-14 flex items-center justify-center text-white bg-slate-700 hover:bg-gray-800 rounded-full">
                     {icon}
                 </div>
             </a>
@@ -46,4 +38,4 @@ export const ButtonIcon = ({ link, text, icon, sx }) => {
             </div>
         </div>
     );
-}
+};

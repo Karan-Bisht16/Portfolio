@@ -1,4 +1,4 @@
-function SkillCard(props) {
+const SkillCard = (props) => {
     const { title, src, color } = props;
 
     return (

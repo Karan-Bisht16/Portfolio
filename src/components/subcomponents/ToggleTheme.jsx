@@ -1,6 +1,6 @@
 import { IoSunnyOutline, IoMoonOutline } from "react-icons/io5";
 
-function ToggleTheme(props) {
+const ToggleTheme = (props) => {
     const { mobile, theme, handleToggleTheme } = props;
 
     return (

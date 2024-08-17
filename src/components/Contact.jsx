@@ -1,11 +1,12 @@
-import Dot from "./subcomponents/Dot";
-import { Heading, Paragraph } from "./subcomponents/TextSubComponents";
+import Dot from "./subComponents/Dot";
+import { Heading, Paragraph } from "./subComponents/TextSubComponents";
+import backgroundImage from "../assets/img-background.avif"
 
-function Contact() {
+const Contact = () => {
     return (
-        <li className="ms-4 select-none sm:pt-16 mb-16 sm:mb-10">
+        <li name="contact" className="select-none pt-4 sm:pt-16 mb-4 ms-4">
             <Dot />
-            <div name="contact" className="relative -top-4">
+            <div className="relative -top-4">
                 <Heading title="Contact" />
                 <Paragraph content=
                     {"Submit the form below to get in touch with me"}
@@ -19,22 +20,26 @@ function Contact() {
                         >
                             <input
                                 type="text" name="name" placeholder="Enter your name" required autoComplete="off"
-                                className="p-2 bg-transparent border-2 border-slate-700 dark:border-gray-400 rounded-md focus:outline-none"
+                                className="p-2 bg-transparent selection:bg-slate-700 border-2 border-slate-700 dark:border-gray-400 rounded-md focus:outline-none"
                             />
                             <input
                                 type="email" name="email" placeholder="Enter your email" required autoComplete="off"
-                                className="my-4 p-2 bg-transparent border-2 border-slate-700 dark:border-gray-400 rounded-md focus:outline-none"
+                                className="my-4 p-2 bg-transparent selection:bg-slate-700 border-2 border-slate-700 dark:border-gray-400 rounded-md focus:outline-none"
                             />
                             <textarea
                                 name="message" placeholder="Enter your message" rows="10" required
-                                className="p-2 bg-transparent border-2 border-slate-700 dark:border-gray-400 rounded-md focus:outline-none"
+                                className="p-2 bg-transparent border-2 selection:bg-slate-700 border-slate-700 dark:border-gray-400 rounded-md focus:outline-none"
                             />
-                            <button className="text-xl text-white px-4 py-3 my-8 mx-auto flex items-center rounded-md border-2 bg-slate-700 dark:bg-slate-800 border-slate-700 dark:border-gray-400 hover:text-slate-700 hover:dark:text-gray-900 hover:bg-white hover:dark:bg-gray-400">
+                            <button className="text-xl text-white px-4 py-3 my-8 mx-auto flex items-center rounded-md border-2 bg-slate-700 dark:bg-slate-900 border-slate-700 dark:border-gray-400 hover:border-slate-800 hover:dark:border-slate-900 hover:bg-slate-800 hover:dark:bg-slate-900">
                                 Let's connect
                             </button>
                         </form>
                     </div>
                 </div>
+            </div>
+            <div className="flex flex-col gap-2 items-center sm:mt-16">
+                <img src={backgroundImage} alt="my profile" className="rounded-2xl resize-none mx-auto w-11/12" />
+                <p className="text-xl font-semibold">Thanks for stopping by !</p>
             </div>
             <Dot />
             <time className="text-md font-normal leading-none text-gray-800 dark:text-gray-400">&lt;end/&gt;</time>

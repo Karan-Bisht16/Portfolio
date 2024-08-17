@@ -1,38 +1,33 @@
-import Dot from "./subcomponents/Dot";
-import { Heading, Paragraph } from "./subcomponents/TextSubComponents";
+import { motion } from "framer-motion";
+import Dot from "./subComponents/Dot";
+import { Paragraph } from "./subComponents/TextSubComponents";
+import profileImage from "../assets/img-profile-image.png";
 
-function About() {
+const About = () => {
     return (
-        <li className="sm:pt-16 mb-10 ms-4">
+        <li name="about" className="select-none pt-4 sm:pt-16 mb-4 ms-4">
             <Dot />
-            <div name="about" className="relative -top-4">
-                <Heading title="About" />
-                <Paragraph content=
-                    {<span>
-                        Alright let's do this one last time...
-                        <br />
-                        My name is <span className="text-violet-700 dark:text-white">Karan Bisht</span>, I am a MERN stack Web Developer and
-                        for 1.5 year I've been the one and only Web Developer *in my house*.
-                        <br /><br />
-                        [<i>insert "what a day..."</i>]
-                        <br /><br />
-                        I'm pretty sure you know the rest... right?!
-                        You see, I made some projects and some more, maybe too many, made some dicy choices - don't just buy any cheap course online.
-                        Then some time passed blah... blah... blah... super boring,
-                        I broke my back. Got my vision screwed. I buried my sanity. Me and my love for web dev, got split up.
-                        But I handled it like a champion!
-                        <br /><br />
-                        [<i>insert soft sobbing</i>]
-                        <br /><br />
-                        'Cause you know what? No matter how many times I get hit, I ALWAYS get back up.
-                        And I got a lot of time to reflect and work on myself. Did you know that seahorses that they mate for life?
-                        Could you imagine a seahorse seeing another seahorse and then making it work?
-                        <br />
-                        Flash forward, I'm in my apartment coding my new project, getting better -
-                        <br /><br />
-                        [<i>he is actually lying on the floor eating pizza</i>]
-                        <br /><br />
-                    </span>}
+            <div className="lg:grid lg:grid-cols-3 lg:gap-16">
+                <div className="relative -top-4 lg:col-span-2 lg:text-right">
+                    <h3 className="font-semibold mb-4 select-none text-4xl sm:text-5xl pt-1 sm:pt-0">
+                        This is my Story
+                    </h3>
+                    <Paragraph content=
+                        {<span>
+                            Alright, let's do this one last time...
+                            <br />
+                            My name is <span className="text-violet-700 dark:text-white">Karan Bisht</span>. I am a full-stack Web Developer. I thrive on inviting challenges and consistently strive for excellence, as reflected in my academic achievements. My passion for art and music deeply influences my work, allowing me to infuse creativity into every project I undertake.
+                            <br /><br />
+                            I believe that the best way to grow is by constantly learning and adapting, which is why I continuously seek new knowledge and skills. I like to combine my technical expertise with my artistic flair, using my websites as a canvas for my creativity.
+                            <br /><br />
+                            Whether it's through designing visually appealing interfaces or crafting seamless user experiences, I aim to create digital solutions that are both functional and inspiring.
+                        </span>}
+                    />
+                </div>
+                <motion.img
+                    initial={{ x: 20, opacity: 0 }} animate={{ x: 0, opacity: 1 }} transition={{ duration: 0.5, delay: 0 }}
+                    src={profileImage} alt="my profile"
+                    className="hidden lg:flex rounded-2xl resize-none mx-auto w-3/4 md:w-72 xl:w-96"
                 />
             </div>
         </li>
