@@ -1,0 +1,45 @@
+{
+    "heading": "Let’s Connect",
+    "content": "Let’s build, learn, and make an unforgettable <span class='text-3xl font-bold text-violet-700'>impact</span> together!",
+    "contactList": {
+        "contactCards": [
+            {
+                "heading": "Email",
+                "text": "karan161003@gmail.com",
+                "icon": "MdAlternateEmail",
+                "iconSize": 32,
+                "style": "p-2"
+            },
+            {
+                "heading": "Phone",
+                "text": "+91 81789 82677",
+                "icon": "FaPhone",
+                "iconSize": 24,
+                "style": "p-3"
+            },
+            {
+                "heading": "Location",
+                "text": "New Delhi, India",
+                "icon": "FaLocationDot",
+                "iconSize": 24,
+                "style": "p-3"
+            }
+        ]
+    },
+    "formPlaceholders": {
+        "name": "Your name",
+        "email": "Your email",
+        "message": "Your message"
+    },
+    "validationMessages": {
+        "nameRequiredWarning": "Please enter your name.",
+        "emailRequiredWarning": "Please enter your email.",
+        "messageRequiredWarning": "Please write a message.",
+        "invalidEmailWarning": "Please enter a valid email.",
+        "sendingMessageStatus": "Sending your message at the speed of light... Hang tight! 🚀",
+        "messageSentSuccess": "Message sent successfully! I'll get back to you soon.",
+        "messageSentFailure": "Error! Your message didn't go through. Give it another shot."
+    },
+    "connectBtnLabel": "Start a Conversation!",
+    "closingText": "Thanks for stopping by!"
+}

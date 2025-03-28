@@ -1,6 +1,8 @@
-const Dot = () => {
+const Dot = (props) => {
+    const { style } = props;
+
     return (
-        <div className="absolute w-[13px] h-[13px] rounded-full mt-1.5 -start-[7.5px] border-2 border-violet-700 bg-slate-300"></div>
+        <div className={`absolute h-[13px] w-[13px] bg-[--dot-bg] mt-4 -start-[7.5px] border-2 border-[--primary-highlight] rounded-full ${style}`} />
     );
 };
 

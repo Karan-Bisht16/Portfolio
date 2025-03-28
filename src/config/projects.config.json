@@ -1,0 +1,1288 @@
+{
+    "projects": [
+        {
+            "id": "paaras-financialss",
+            "height": 32,
+            "heightOnMobile": 20,
+            "version": "1.0.0",
+            "title": "Paaras Financialss",
+            "locked": true,
+            "thumbnailImg": {
+                "lowResSrc": "/assets/projects/img-paaras-financialss-thumbnail [low res].jpg",
+                "highResSrc": "/assets/projects/img-paaras-financialss-thumbnail [high res].jpg"
+            },
+            "bannerImg": {
+                "lowResSrc": "/assets/projects/img-paaras-financialss-thumbnail [low res].jpg",
+                "highResSrc": "/assets/projects/img-paaras-financialss-banner [high res].jpg"
+            },
+            "overview": {
+                "duration": "Nov 2024 - Feb 2025",
+                "websiteLink": "https://parasfinancials.com/",
+                "githubRepositoryLink": "https://github.com/Karan-Bisht16/Paras-Insurance/",
+                "content": "A business-oriented website built for Mrs. Indu Jain to streamline insurance and SIP management. Designed for both her team and clients, it features an intuitive interface, dynamic forms, and an employee management system to enhance operational efficiency.",
+                "role": "Full-Stack Developer",
+                "collaborators": [
+                    {
+                        "label": "Ayush Kumar",
+                        "link": "https://www.linkedin.com/in/karan-bisht1603/"
+                    }
+                ],
+                "tools": [
+                    "VS Code",
+                    "GitHub",
+                    "Postman"
+                ]
+            },
+            "developmentTimeline": {
+                "label": "Development Timeline",
+                "list": [
+                    {
+                        "caption": "Nov 29, 2024 - Dec 2, 2024",
+                        "title": "Proof of Concept & Planning",
+                        "subtitle": "Initial Setup",
+                        "body": "Set up database and backend alongside establishing the base for dynamic forms and the client-side interface of the website."
+                    },
+                    {
+                        "caption": "Dec 31, 2024 - Jan 20, 2025",
+                        "title": "Development",
+                        "subtitle": "Core Implementation",
+                        "body": "Worked on the frontend, backend, and admin panel based on client feedback."
+                    },
+                    {
+                        "caption": "Jan 21, 2025 - Jan 23, 2025",
+                        "title": "Frontend Update",
+                        "body": "Refined UI components and enhanced user experience based on client feedback.",
+                        "displayWithLabel": {
+                            "Note": "Mainly done by Ayush Kumar, with minor improvements and suggestions from me."
+                        }
+                    },
+                    {
+                        "caption": "Feb 11, 2025",
+                        "title": "Bug Fixes & Features",
+                        "body": "Resolved key bugs and introduced new features, implemented client policy deletion option as per client requirement."
+                    }
+                ]
+            },
+            "techStack": {
+                "label": "Tech Stack",
+                "list": [
+                    {
+                        "label": "Front-end",
+                        "list": [
+                            {
+                                "name": "React.js",
+                                "version": "18.3.1"
+                            },
+                            {
+                                "name": "Vite",
+                                "version": "6.0.1"
+                            },
+                            {
+                                "name": "Material-UI",
+                                "version": "6.3.0"
+                            },
+                            {
+                                "name": "Tailwind CSS",
+                                "version": "3.4.15"
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Back-end",
+                        "list": [
+                            {
+                                "name": "Node.js",
+                                "version": "18.16.0"
+                            },
+                            {
+                                "name": "Express.js",
+                                "version": "4.21.1"
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Database",
+                        "list": [
+                            {
+                                "name": "MongoDB",
+                                "version": "6.11.0"
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Deployment",
+                        "list": [
+                            {
+                                "name": "Vercel",
+                                "version": "latest"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "features": {
+                "label": "Features",
+                "list": [
+                    "Admin panel with employee management system",
+                    "Dynamic forms for easy addition and updating of insurance policies",
+                    "Fully responsive and intuitive layout"
+                ]
+            },
+            "libraries": {
+                "label": "Libraries & Dependencies",
+                "list": [
+                    {
+                        "name": "@json2csv/plainjs",
+                        "link": "https://www.npmjs.com/package/json2csv",
+                        "description": "Used for converting JSON to CSV."
+                    },
+                    {
+                        "name": "cookie-parser",
+                        "link": "https://www.npmjs.com/package/cookie-parser",
+                        "description": "Used for parsing cookies in Express applications."
+                    },
+                    {
+                        "name": "csvtojson",
+                        "link": "https://www.npmjs.com/package/csvtojson",
+                        "description": "Used for converting CSV files to JSON format."
+                    },
+                    {
+                        "name": "jsonwebtoken",
+                        "link": "https://www.npmjs.com/package/jsonwebtoken",
+                        "description": "Used for handling JSON Web Tokens (JWT)."
+                    },
+                    {
+                        "name": "multer",
+                        "link": "https://www.npmjs.com/package/multer",
+                        "description": "Used for handling file uploads in Node.js."
+                    },
+                    {
+                        "name": "nodemailer",
+                        "link": "https://www.npmjs.com/package/nodemailer",
+                        "description": "Used for sending emails in Node.js applications."
+                    },
+                    {
+                        "name": "@mui/icons-material",
+                        "link": "https://www.npmjs.com/package/@mui/icons-material",
+                        "description": "Used for Material UI icons in React applications."
+                    },
+                    {
+                        "name": "ldrs",
+                        "link": "https://www.npmjs.com/package/ldrs",
+                        "description": "Used for adding lightweight loaders and spinners."
+                    },
+                    {
+                        "name": "papaparse",
+                        "link": "https://www.npmjs.com/package/papaparse",
+                        "description": "Used for parsing CSV data in JavaScript."
+                    },
+                    {
+                        "name": "react-router-dom",
+                        "link": "https://www.npmjs.com/package/react-router-dom",
+                        "description": "Used for handling routing in React applications."
+                    },
+                    {
+                        "name": "react-spreadsheet",
+                        "link": "https://www.npmjs.com/package/react-spreadsheet",
+                        "description": "Used for creating and managing spreadsheet components in React."
+                    },
+                    {
+                        "name": "xlsx",
+                        "link": "https://www.npmjs.com/package/xlsx",
+                        "description": "Used for working with Excel files in JavaScript."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "syncspace",
+            "height": 86,
+            "heightOnMobile": 48,
+            "version": "1.0.0",
+            "title": "SyncSpace",
+            "thumbnailImg": {
+                "lowResSrc": "/assets/projects/img-syncspace-thumbnail [low res].jpeg",
+                "highResSrc": "/assets/projects/img-syncspace-thumbnail [high res].jpeg"
+            },
+            "bannerImg": {
+                "lowResSrc": "/assets/projects/img-syncspace-banner [low res].jpg",
+                "highResSrc": "/assets/projects/img-syncspace-banner [high res].jpg"
+            },
+            "overview": {
+                "duration": "July 2024 - August 2024",
+                "websiteLink": "https://syncspace-karan-bishts-projects.vercel.app/",
+                "githubRepositoryLink": "https://github.com/Karan-Bisht16/SyncSpace/",
+                "content": "SyncSpace is a Reddit-like website built using the <strong>MERN</strong> stack.<br />It allows users to create and join communities, known as subspaces, where they can post content, comment, and interact with others. The project was inspired by the <a href='https://www.youtube.com/playlist?list=PL6QREj8te1P7VSwhrMf3D3Xt4V6_SRkhu' target='_blank' rel='noopener noreferrer' class='italic'>Full Stack MERN Application</a> series by JavaScript Mastery on YouTube.",
+                "role": "Sole Developer",
+                "tools": [
+                    "VS Code",
+                    "GitHub",
+                    "Postman"
+                ]
+            },
+            "developmentTimeline": {
+                "label": "Development Timeline",
+                "list": [
+                    {
+                        "caption": "June 13, 2024 - June 22, 2024",
+                        "title": "Initial Setup",
+                        "body": "Since this was my first major project using the MERN stack and React.js, I followed a YouTube series to set up the project, structure the folders, and apply best practices."
+                    },
+                    {
+                        "caption": "June 26, 2024 - July 24, 2024",
+                        "title": "Development",
+                        "body": "I developed the website's core functionalities, including user authentication, subspaces, posts, and comments. I built the backend endpoints first and then integrated them with the frontend, following a trial-and-error approach to refine the implementation. After completing this phase, I shared a post about it on LinkedIn."
+                    },
+                    {
+                        "caption": "July 27, 2024 - August 5, 2024",
+                        "title": "Bug Fixes",
+                        "body": "I enhanced authentication security by implementing more robust validation methods and strengthening user data protection. This included implementing JWT-based authentication, secure session handling, and password hashing improvements."
+                    },
+                    {
+                        "caption": "August 10, 2024 - August 18, 2024",
+                        "title": "Final Touches & Optimization",
+                        "body": "I integrated Cloudinary for media storage to ensure fast retrieval and better performance. Additionally, I optimized database queries to enhance the platform's speed and stability, reducing unnecessary calls and improving data fetching efficiency."
+                    },
+                    {
+                        "caption": "Future Plans",
+                        "title": "Refactoring & Major Enhancements",
+                        "body": "I plan to revamp SyncSpace by introducing new features and further optimizing the architecture. This includes improved scalability, a better UI/UX, real-time functionalities, and more efficient database management."
+                    }
+                ]
+            },
+            "techStack": {
+                "label": "Tech Stack",
+                "list": [
+                    {
+                        "label": "Front-end",
+                        "list": [
+                            {
+                                "name": "React.js",
+                                "version": "18.3.1"
+                            },
+                            {
+                                "name": "React Redux",
+                                "version": "9.1.2"
+                            },
+                            {
+                                "name": "Material-UI",
+                                "version": "5.15.20"
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Back-end",
+                        "list": [
+                            {
+                                "name": "Node.js",
+                                "version": "18.16.0"
+                            },
+                            {
+                                "name": "Express.js",
+                                "version": "4.19.2"
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Database",
+                        "list": [
+                            {
+                                "name": "MongoDB",
+                                "version": "6.8.0"
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Deployment",
+                        "list": [
+                            {
+                                "name": "Vercel",
+                                "version": "latest"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "gallery": {
+                "label": "Gallery",
+                "images": [
+                    "/assets/projects/img-syncspace-gallery 1.jpg",
+                    "/assets/projects/img-syncspace-gallery 2.jpg",
+                    "/assets/projects/img-syncspace-gallery 3.jpg",
+                    "/assets/projects/img-syncspace-gallery 4.jpg",
+                    "/assets/projects/img-syncspace-gallery 5.jpg",
+                    "/assets/projects/img-syncspace-gallery 6.jpg"
+                ]
+            },
+            "features": {
+                "label": "Features",
+                "list": [
+                    "User authentication (Google OAuth, JWT)",
+                    "Infinite scrolling with scroll recovery",
+                    "Audio player integration",
+                    "Modern UI with Material-UI components"
+                ]
+            },
+            "systemDesign": {
+                "label": "System Design Overview",
+                "link": "https://app.eraser.io/workspace/dJMjbpJMcqiAW4B3AJRM"
+            },
+            "libraries": {
+                "label": "Libraries & Dependencies",
+                "list": [
+                    {
+                        "name": "@tanstack/react-query",
+                        "link": "https://tanstack.com/query/latest",
+                        "description": "Used for infinite scrolling with scroll recovery."
+                    },
+                    {
+                        "name": "@react-oauth/google",
+                        "link": "https://www.npmjs.com/package/@react-oauth/google",
+                        "description": "Used for Google OAuth authentication."
+                    },
+                    {
+                        "name": "@mui/icons-material",
+                        "link": "https://www.npmjs.com/package/@mui/icons-material",
+                        "description": "Used for Material UI icons in React applications."
+                    },
+                    {
+                        "name": "jodit-react",
+                        "link": "https://www.npmjs.com/package/jodit-react",
+                        "description": "An open-source WYSIWYG editor for rich text editing."
+                    },
+                    {
+                        "name": "html-react-parser",
+                        "link": "https://www.npmjs.com/package/html-react-parser",
+                        "description": "Used for parsing HTML strings into React components."
+                    },
+                    {
+                        "name": "react-h5-audio-player",
+                        "link": "https://www.npmjs.com/package/react-h5-audio-player",
+                        "description": "An HTML5 media player component for React with a customizable UI."
+                    },
+                    {
+                        "name": "browser-image-compression",
+                        "link": "https://www.npmjs.com/package/browser-image-compression",
+                        "description": "Used for compressing images before uploading to optimize storage and performance."
+                    },
+                    {
+                        "name": "ldrs",
+                        "link": "https://www.npmjs.com/package/ldrs",
+                        "description": "Provides lightweight loaders and spinner animations for a better user experience."
+                    },
+                    {
+                        "name": "bcrypt",
+                        "link": "https://www.npmjs.com/package/bcrypt",
+                        "description": "Used for password hashing in authentication."
+                    },
+                    {
+                        "name": "multer",
+                        "link": "https://www.npmjs.com/package/multer",
+                        "description": "Middleware for handling file uploads in Node.js."
+                    },
+                    {
+                        "name": "cloudinary",
+                        "link": "https://www.npmjs.com/package/cloudinary",
+                        "description": "Cloud-based media storage and management service."
+                    },
+                    {
+                        "name": "cookie-parser",
+                        "link": "https://www.npmjs.com/package/cookie-parser",
+                        "description": "Middleware to parse cookies for session management."
+                    },
+                    {
+                        "name": "jsonwebtoken",
+                        "link": "https://www.npmjs.com/package/jsonwebtoken",
+                        "description": "Used to generate and verify JWT tokens for authentication."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "codesync",
+            "height": 64,
+            "heightOnMobile": 32,
+            "version": "1.0.0",
+            "title": "CodeSync",
+            "thumbnailImg": {
+                "lowResSrc": "/assets/projects/img-codesync-thumbnail [low res].jpg",
+                "highResSrc": "/assets/projects/img-codesync-thumbnail [high res].jpg"
+            },
+            "bannerImg": {
+                "lowResSrc": "/assets/projects/img-codesync-banner [low res].jpg",
+                "highResSrc": "/assets/projects/img-codesync-banner [high res].jpg"
+            },
+            "overview": {
+                "duration": "Aug 2024 - Ongoing",
+                "websiteLink": "https://code-sync-karan-bishts-projects.vercel.app/",
+                "githubRepositoryLink": "https://github.com/Karan-Bisht16/CodeSync/",
+                "content": "CodeSync is a <strong>real-time collaborative coding platform</strong> designed for educational use. It enables developers to work together seamlessly with live code editing, a collaborative whiteboard, and audio communication. The platform is built for efficiency and scalability, using <strong>React, TypeScript, Node.js (Express), and Socket.IO</strong>. It features role-based permissions, authentication via Firebase, and plans for complex file structures and live site sharing. This project serves as my major academic work for my 8th semester.",
+                "role": "Core Developer (Front-end & Back-end)",
+                "collaborators": [
+                    {
+                        "label": "Raj Kumar",
+                        "link": "https://www.linkedin.com/in/raj-kumar-1b4994229/"
+                    },
+                    {
+                        "label": "Ayush Kumar",
+                        "link": "https://www.linkedin.com/in/ayush-kumar-894a16257/"
+                    },
+                    {
+                        "label": "Yashika",
+                        "link": "https://www.linkedin.com/in/yashika-6ba949253/"
+                    }
+                ],
+                "tools": [
+                    "VS Code",
+                    "GitHub",
+                    "Postman"
+                ]
+            },
+            "developmentTimeline": {
+                "label": "Development Timeline",
+                "list": [
+                    {
+                        "caption": "Aug 9, 2024 - Aug 16, 2024",
+                        "title": "Initial Setup & Planning",
+                        "body": "Researched various online code editors and real-time synchronization techniques. Ultimately, I chose CodeMirror, which has a built-in operational transformation feature for real-time code updates. On the backend, I used Socket.IO for other synchronization features like chat.",
+                        "displayWithLabel": {
+                            "Note": "The backend implementation of Socket.IO for real-time updates was primarily handled by Raj Kumar."
+                        }
+                    },
+                    {
+                        "caption": "Aug 21, 2024 - Sep 3, 2024",
+                        "title": "Development",
+                        "body": "Finalized a UI design by Yashika, which was implemented by Ayush Kumar and me. On the backend, we completed real-time chat, code execution, and the real-time whiteboard."
+                    },
+                    {
+                        "caption": "Sep 16, 2024 - Oct 14, 2024",
+                        "title": "Feature Additions",
+                        "subtitle": "Enhancing Collaboration",
+                        "body": "Improved the UI for mobile devices and added features such as hand raise functionality, synchronous caret movement, and a participant info side panel."
+                    }
+                ]
+            },
+            "techStack": {
+                "label": "Tech Stack",
+                "list": [
+                    {
+                        "label": "Front-end",
+                        "list": [
+                            {
+                                "name": "React",
+                                "version": "18.3.1"
+                            },
+                            {
+                                "name": "Material-UI",
+                                "version": "6.0.1"
+                            },
+                            {
+                                "name": "TailwindCSS",
+                                "version": "3.4.10"
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Back-end",
+                        "list": [
+                            {
+                                "name": "Node.js",
+                                "version": "18.16.0"
+                            },
+                            {
+                                "name": "Express.js",
+                                "version": "4.18.2"
+                            },
+                            {
+                                "name": "Socket.IO",
+                                "version": "4.7.2"
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Deployment",
+                        "list": [
+                            {
+                                "name": "Vercel",
+                                "version": "latest"
+                            },
+                            {
+                                "name": "Render",
+                                "version": "latest"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "gallery": {
+                "label": "Gallery",
+                "images": [
+                    "/assets/projects/img-codesync-gallery 1.jpg",
+                    "/assets/projects/img-codesync-gallery 2.jpg",
+                    "/assets/projects/img-codesync-gallery 3.jpg",
+                    "/assets/projects/img-codesync-gallery 4.jpg"
+                ]
+            },
+            "features": {
+                "label": "Features",
+                "list": [
+                    "A shared code editor (using CodeMirror) allowing users to write, edit, and view code collectively.",
+                    "Implemented Socket.IO for code synchronization and chat functionalities.",
+                    "Multiple programming languages supported (Java, C++, Python, JavaScript, TypeScript, etc).",
+                    "Console for immediate code execution (using code-compiler API).",
+                    "Collaborative whiteboard (using Tldraw) for brainstorming and visual explanations.",
+                    "Integrated chat for easy in-app communication."
+                ]
+            },
+            "systemDesign": {
+                "label": "System Design Overview",
+                "link": "https://app.eraser.io/workspace/ewHbT6LRwZ1UOKbTdjaM"
+            },
+            "libraries": {
+                "label": "Libraries & Dependencies",
+                "list": [
+                    {
+                        "name": "CodeMirror",
+                        "link": "https://codemirror.net/",
+                        "description": "Used for real-time collaborative code editing."
+                    },
+                    {
+                        "name": "@mui/icons-material",
+                        "link": "https://www.npmjs.com/package/@mui/icons-material",
+                        "description": "Used for Material UI icons in React applications."
+                    },
+                    {
+                        "name": "Tldraw",
+                        "link": "https://tldraw.com/",
+                        "description": "Provides an interactive whiteboard for collaboration."
+                    },
+                    {
+                        "name": "Code-Compiler API",
+                        "link": "https://rapidapi.com/realbrain-realbrain-default/api/code-compiler10",
+                        "description": "Enables real-time code execution for multiple programming languages."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "sevakrit",
+            "height": 48,
+            "heightOnMobile": 26,
+            "version": "3.0.0",
+            "title": "Sevakrit",
+            "thumbnailImg": {
+                "lowResSrc": "/assets/projects/img-sevakrit-thumbnail [low res].jpg",
+                "highResSrc": "/assets/projects/img-sevakrit-thumbnail [high res].jpg"
+            },
+            "bannerImg": {
+                "lowResSrc": "/assets/projects/img-sevakrit-banner [low res].jpg",
+                "highResSrc": "/assets/projects/img-sevakrit-banner [high res].jpg"
+            },
+            "overview": {
+                "duration": "Oct 2023 - Aug 2024",
+                "websiteLink": "https://sevakritv3-karan-bishts-projects.vercel.app/",
+                "githubRepositoryLink": "https://github.com/Karan-Bisht16/Sevakrit_v3/",
+                "content": "Sevakrit is a platform designed to address resource wastage by enabling individuals and communities to donate surplus goods such as food, clothes, books, and toys to NGOs. The platform bridges the gap between donors and NGOs, ensuring a secure and efficient donation process. This project was showcased at the ADGITM T-Hacks 6.0 hackathon, where our team, 'DevSquad,' secured a place among the top 15 teams in this highly competitive event, hosted by IEEE ADGITM.",
+                "role": "Core Developer (Front-end & Back-end)",
+                "collaborators": [
+                    {
+                        "label": "Raj Kumar",
+                        "link": "https://www.linkedin.com/in/raj-kumar-1b4994229/"
+                    },
+                    {
+                        "label": "Ayush Kumar",
+                        "link": "https://www.linkedin.com/in/ayush-kumar-894a16257/"
+                    },
+                    {
+                        "label": "Yashika",
+                        "link": "https://www.linkedin.com/in/yashika-6ba949253/"
+                    }
+                ],
+                "tools": [
+                    "VS Code",
+                    "GitHub"
+                ]
+            },
+            "developmentTimeline": {
+                "label": "Development Timeline",
+                "list": [
+                    {
+                        "caption": "Sept 30, 2023",
+                        "title": "Initial Prototype",
+                        "body": "The prototype was created to evaluate feasibility and gain hands-on experience with Leaflet.js and the OpenStreetMap API. This phase helped define the project's core functionalities."
+                    },
+                    {
+                        "caption": "Oct 1, 2023 - Oct 12, 2023",
+                        "title": "Development of v1",
+                        "body": "Version 1 was a basic client-side implementation featuring an interactive map. It served as the foundation for future iterations."
+                    },
+                    {
+                        "caption": "Oct 12, 2023 - Oct 14, 2023",
+                        "title": "Bug Fixes & Minor Improvements",
+                        "body": "During this phase, initial bugs were identified and fixed, improving stability and user experience. Minor UI enhancements were also made."
+                    },
+                    {
+                        "caption": "Oct 15, 2023 - Nov 22, 2023",
+                        "title": "Development of v2",
+                        "body": "Version 2 introduced an NGO portal, allowing NGOs to register, view donations, and manage requests more efficiently. The UI was refined, and backend optimizations were implemented."
+                    },
+                    {
+                        "caption": "Nov 26, 2023 - Apr 19, 2024",
+                        "title": "Development of v3",
+                        "body": "Version 3 brought advanced features such as email notifications for new donations, different donation privacy settings (public, protected, and private), and automated cron jobs for periodic system tasks."
+                    },
+                    {
+                        "caption": "Apr 24, 2023 - Aug 18, 2024",
+                        "title": "Bug Fixes & Refactoring",
+                        "body": "Over time, the codebase was occasionally updated to follow best practices and improve the folder structure. Several minor bugs were fixed along the way to enhance system performance and maintainability."
+                    }
+                ]
+            },
+            "techStack": {
+                "label": "Tech Stack",
+                "list": [
+                    {
+                        "label": "Front-end",
+                        "list": [
+                            {
+                                "name": "EJS",
+                                "version": "3.1.9"
+                            },
+                            {
+                                "name": "Bootstrap",
+                                "version": "5.x"
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Back-end",
+                        "list": [
+                            {
+                                "name": "Node.js",
+                                "version": "18.16.0"
+                            },
+                            {
+                                "name": "Express.js",
+                                "version": "4.18.2"
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Database",
+                        "list": [
+                            {
+                                "name": "MongoDB",
+                                "version": "6.8.0"
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Deployment",
+                        "list": [
+                            {
+                                "name": "Vercel",
+                                "version": "latest"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "gallery": {
+                "label": "Gallery",
+                "images": [
+                    "/assets/projects/img-sevakrit-gallery 1.jpg",
+                    "/assets/projects/img-sevakrit-gallery 2.jpg",
+                    "/assets/projects/img-sevakrit-gallery 3.jpg",
+                    "/assets/projects/img-sevakrit-gallery 4.jpg",
+                    "/assets/projects/img-sevakrit-gallery 5.jpg",
+                    "/assets/projects/img-sevakrit-gallery 6.jpg"
+                ]
+            },
+            "features": {
+                "label": "Features",
+                "list": [
+                    "Interactive map for tracking donations and NGO locations",
+                    "Multi-user role-based access control for clients, NGOs, and admins",
+                    "Admin dashboard for NGO verification and user management",
+                    "Real-time NGO notifications based on donor proximity via email alerts",
+                    "Customizable donation visibility (Private, Protected, Public) for client privacy and security",
+                    "Reverse geolocation for automatic pickup address selection",
+                    "User feedback system for platform improvement"
+                ]
+            },
+            "libraries": {
+                "label": "Libraries & Dependencies",
+                "list": [
+                    {
+                        "name": "Leaflet.js",
+                        "link": "https://leafletjs.com/",
+                        "description": "JavaScript library for interactive maps."
+                    },
+                    {
+                        "name": "OpenStreetMap API",
+                        "link": "https://www.openstreetmap.org/",
+                        "description": "Provides geospatial data for mapping features."
+                    },
+                    {
+                        "name": "Connect-flash",
+                        "link": "https://www.npmjs.com/package/connect-flash",
+                        "description": "Provides flash messages in Express applications."
+                    },
+                    {
+                        "name": "Express-session",
+                        "link": "https://www.npmjs.com/package/express-session",
+                        "description": "Session middleware for Express."
+                    },
+                    {
+                        "name": "Node-cron",
+                        "link": "https://www.npmjs.com/package/node-cron",
+                        "description": "Library for scheduling cron jobs in Node.js."
+                    },
+                    {
+                        "name": "Nodemailer",
+                        "link": "https://www.npmjs.com/package/nodemailer",
+                        "description": "Used for sending emails in Node.js applications."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "keeper-notes-app",
+            "height": 48,
+            "heightOnMobile": 16,
+            "version": "1.0.0",
+            "title": "Keeper Notes App",
+            "thumbnailImg": {
+                "lowResSrc": "/assets/projects/img-keeper-notes-app-thumbnail [low res].jpg",
+                "highResSrc": "/assets/projects/img-keeper-notes-app-thumbnail [high res].jpg"
+            },
+            "bannerImg": {
+                "lowResSrc": "/assets/projects/img-keeper-notes-app-banner [low res].jpg",
+                "highResSrc": "/assets/projects/img-keeper-notes-app-banner [high res].jpg"
+            },
+            "overview": {
+                "duration": "Jun 2024",
+                "websiteLink": "https://react-keeper-notes-app-karan-bishts-projects.vercel.app/",
+                "githubRepositoryLink": "https://github.com/Karan-Bisht16/react-Keeper_Notes_App/",
+                "content": "The final React project from my <a href='https://www.udemy.com/course/the-complete-web-development-bootcamp/' target='_blank' rel='noopener noreferrer' class='italic'>The Complete 2024 Web Development Bootcamp</a> course, created by <a href='https://x.com/yu_angela' target='_blank' rel='noopener noreferrer' class='italic'>Dr. Angela Yu</a>.<br />This project was made strictly using React and doesn't employ Express.js or MongoDB connectivity.",
+                "role": "Sole Developer",
+                "tools": [
+                    "VS Code",
+                    "GitHub"
+                ]
+            },
+            "techStack": {
+                "label": "Tech Stack",
+                "list": [
+                    {
+                        "label": "Front-end",
+                        "list": [
+                            {
+                                "name": "React",
+                                "version": "18.3.1"
+                            },
+                            {
+                                "name": "Material-UI",
+                                "version": "5.15.20"
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Deployment",
+                        "list": [
+                            {
+                                "name": "Vercel",
+                                "version": "latest"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "gallery": {
+                "label": "Gallery",
+                "images": [
+                    "/assets/projects/img-keeper-notes-app-gallery 1.jpg",
+                    "/assets/projects/img-keeper-notes-app-gallery 2.jpg",
+                    "/assets/projects/img-keeper-notes-app-gallery 3.jpg"
+                ]
+            },
+            "features": {
+                "label": "Features",
+                "list": [
+                    "A simple note-taking app that allows users to create, edit, and delete notes with a clean and minimalistic UI.",
+                    "Fully responsive design that adapts to different screen sizes for an optimal user experience across devices."
+                ]
+            },
+            "libraries": {
+                "label": "Libraries & Dependencies",
+                "list": [
+                    {
+                        "name": "@mui/icons-material",
+                        "link": "https://www.npmjs.com/package/@mui/icons-material",
+                        "description": "Used for Material UI icons in React applications."
+                    },
+                    {
+                        "name": "@fortawesome/react-fontawesome",
+                        "link": "https://www.npmjs.com/package/@fortawesome/react-fontawesome",
+                        "description": "Used to integrate FontAwesome icons into React components, allowing for scalable vector icons with customizable styles."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "quicklist",
+            "height": 40,
+            "heightOnMobile": 24,
+            "version": "1.0.0",
+            "title": "QuickList",
+            "thumbnailImg": {
+                "lowResSrc": "/assets/projects/img-quicklist-banner [low res].jpg",
+                "highResSrc": "/assets/projects/img-quicklist-banner [high res].jpg"
+            },
+            "bannerImg": {
+                "lowResSrc": "/assets/projects/img-quicklist-banner [low res].jpg",
+                "highResSrc": "/assets/projects/img-quicklist-banner [high res].jpg"
+            },
+            "overview": {
+                "duration": "Sep 2023",
+                "websiteLink": "https://expressjs-to-do-list-karan-bishts-projects.vercel.app/",
+                "githubRepositoryLink": "https://github.com/Karan-Bisht16/expressjs-To_Do_List",
+                "content": "A simple <strong>To-Do List</strong> project created to explore <strong>Node.js</strong>, <strong>Express.js</strong>, and <strong>MongoDB</strong> as an extension of my previous project: <a href='https://karan-bisht16.github.io/js-To_Do_List/' target='_blank' rel='noopener noreferrer' class='italic'>js-To_Do_List</a>. Implemented user authentication with <strong>bcrypt</strong> for security and used <strong>connect-mongo</strong> along with <strong>cookies</strong> for session storage.",
+                "role": "Full-Stack Developer",
+                "tools": [
+                    "VS Code",
+                    "GitHub"
+                ]
+            },
+            "developmentTimeline": {
+                "label": "Development Timeline",
+                "list": [
+                    {
+                        "caption": "Sep 10, 2023 - Sep 21, 2023",
+                        "title": "Development",
+                        "body": "Built the core functionality of a To-Do List using Express.js, MongoDB, and authentication features. Integrated session handling with cookies and Connect-Mongo."
+                    },
+                    {
+                        "caption": "May 28, 2024 - Jun 14, 2024",
+                        "title": "Minor Updates",
+                        "body": "Occasionally updated the codebase with refactoring, UI improvements, and minor optimizations."
+                    }
+                ]
+            },
+            "techStack": {
+                "label": "Tech Stack",
+                "list": [
+                    {
+                        "label": "Front-end",
+                        "list": [
+                            {
+                                "name": "EJS",
+                                "version": "3.1.9"
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Back-end",
+                        "list": [
+                            {
+                                "name": "Node.js",
+                                "version": "18.16.0"
+                            },
+                            {
+                                "name": "Express.js",
+                                "version": "4.18.2"
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Database",
+                        "list": [
+                            {
+                                "name": "MongoDB",
+                                "version": "6.0"
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Deployment",
+                        "list": [
+                            {
+                                "name": "Vercel",
+                                "version": "latest"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "gallery": {
+                "label": "Gallery",
+                "images": [
+                    "/assets/projects/img-quicklist-gallery 1.jpg",
+                    "/assets/projects/img-quicklist-gallery 2.jpg",
+                    "/assets/projects/img-quicklist-gallery 3.jpg",
+                    "/assets/projects/img-quicklist-gallery 4.jpg",
+                    "/assets/projects/img-quicklist-gallery 5.jpg"
+                ]
+            },
+            "features": {
+                "label": "Features",
+                "list": [
+                    "User authentication with bcrypt",
+                    "Session storage using connect-mongo",
+                    "Task and list management with CRUD operations"
+                ]
+            },
+            "libraries": {
+                "label": "Libraries & Dependencies",
+                "list": [
+                    {
+                        "name": "axios",
+                        "link": "https://www.npmjs.com/package/axios",
+                        "description": "Promise-based HTTP client for making requests."
+                    },
+                    {
+                        "name": "bcryptjs",
+                        "link": "https://www.npmjs.com/package/bcryptjs",
+                        "description": "Used to hash passwords for authentication."
+                    },
+                    {
+                        "name": "connect-mongo",
+                        "link": "https://www.npmjs.com/package/connect-mongo",
+                        "description": "Stores session data in MongoDB."
+                    },
+                    {
+                        "name": "express-session",
+                        "link": "https://www.npmjs.com/package/express-session",
+                        "description": "Manages sessions in Express applications."
+                    },
+                    {
+                        "name": "method-override",
+                        "link": "https://www.npmjs.com/package/method-override",
+                        "description": "Allows usage of HTTP verbs like PUT and DELETE."
+                    },
+                    {
+                        "name": "morgan",
+                        "link": "https://www.npmjs.com/package/morgan",
+                        "description": "HTTP request logger for Express."
+                    }
+                ]
+            }
+        },
+        {
+            "id": "piet-mondrian",
+            "height": 56,
+            "heightOnMobile": 26,
+            "version": "1.0.0",
+            "title": "Piet Mondrian",
+            "thumbnailImg": {
+                "lowResSrc": "/assets/projects/img-piet-mondrian-thumbnail [low res].jpg",
+                "highResSrc": "/assets/projects/img-piet-mondrian-thumbnail [high res].jpg"
+            },
+            "bannerImg": {
+                "lowResSrc": "/assets/projects/img-piet-mondrian-banner [low res].jpg",
+                "highResSrc": "/assets/projects/img-piet-mondrian-banner [high res].jpg"
+            },
+            "overview": {
+                "duration": "Aug 2023",
+                "websiteLink": "https://karan-bisht16.github.io/css-Piet_Mondrian/",
+                "githubRepositoryLink": "https://github.com/Karan-Bisht16/css-Piet_Mondrian",
+                "content": "A simple website built using HTML, CSS, and Bootstrap, focusing on <strong>Piet Mondrian</strong>. This project recreates his neoplastic artwork using the CSS grid layout, serving as both a tribute and a practical exercise in web design and layout techniques.<br /><br />The inspiration for this project came from my <a href='https://www.udemy.com/course/the-complete-web-development-bootcamp/' target='_blank' rel='noopener noreferrer' class='italic'>The Complete 2024 Web Development Bootcamp</a> course, created by <a href='https://x.com/yu_angela' target='_blank' rel='noopener noreferrer' class='italic'>Dr. Angela Yu</a>.",
+                "role": "Sole Developer",
+                "tools": [
+                    "VS Code",
+                    "GitHub"
+                ]
+            },
+            "techStack": {
+                "label": "Tech Stack",
+                "list": [
+                    {
+                        "label": "Front-end",
+                        "list": [
+                            {
+                                "name": "HTML",
+                                "version": "5"
+                            },
+                            {
+                                "name": "CSS",
+                                "version": "3"
+                            },
+                            {
+                                "name": "Bootstrap",
+                                "version": "5.x"
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Deployment",
+                        "list": [
+                            {
+                                "name": "GitHub Pages",
+                                "version": "latest"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "gallery": {
+                "label": "Gallery",
+                "images": [
+                    "/assets/projects/img-piet-mondrian-gallery 1.jpg",
+                    "/assets/projects/img-piet-mondrian-gallery 2.jpg",
+                    "/assets/projects/img-piet-mondrian-gallery 3.jpg"
+                ]
+            },
+            "features": {
+                "label": "Features",
+                "list": [
+                    "Responsive design for optimal viewing on different devices.",
+                    "Most of the artwork in the gallery section was created using the CSS grid layout technique to practice CSS grid."
+                ]
+            }
+        },
+        {
+            "id": "placeholder-1",
+            "height": 0,
+            "heightOnMobile": 0,
+            "version": "",
+            "title": "",
+            "hidden": true,
+            "locked": true,
+            "thumbnailImg": {
+                "lowResSrc": "",
+                "highResSrc": ""
+            },
+            "bannerImg": {
+                "lowResSrc": "",
+                "highResSrc": ""
+            },
+            "overview": {
+                "duration": "",
+                "websiteLink": "",
+                "githubRepositoryLink": "",
+                "content": "",
+                "role": "",
+                "collaborators": [
+                    {
+                        "label": "",
+                        "link": ""
+                    }
+                ],
+                "tools": [
+                    ""
+                ]
+            },
+            "developmentTimeline": {
+                "label": "",
+                "list": [
+                    {
+                        "caption": "",
+                        "title": "",
+                        "subtitle": "",
+                        "body": "",
+                        "displayWithLabel": {
+                            "[KEY]": ""
+                        },
+                        "displayWithOutLabel": [
+                            ""
+                        ]
+                    }
+                ]
+            },
+            "techStack": {
+                "label": "",
+                "list": [
+                    {
+                        "label": "",
+                        "list": [
+                            {
+                                "name": "",
+                                "version": ""
+                            }
+                        ]
+                    }
+                ]
+            },
+            "gallery": {
+                "label": "",
+                "images": [
+                    ""
+                ]
+            },
+            "features": {
+                "label": "",
+                "list": [
+                    ""
+                ]
+            },
+            "systemDesign": {
+                "label": "",
+                "link": ""
+            },
+            "libraries": {
+                "label": "",
+                "list": [
+                    {
+                        "name": "",
+                        "link": "",
+                        "description": ""
+                    }
+                ]
+            }
+        },
+        {
+            "id": "react-to-do-list",
+            "height": 32,
+            "heightOnMobile": 16,
+            "version": "1.0.0",
+            "title": "React To-Do List",
+            "thumbnailImg": {
+                "lowResSrc": "/assets/projects/img-react-to-do-list-thumbnail [low res].jpg",
+                "highResSrc": "/assets/projects/img-react-to-do-list-thumbnail [high res].jpg"
+            },
+            "bannerImg": {
+                "lowResSrc": "/assets/projects/img-react-to-do-list-banner [low res].jpg",
+                "highResSrc": "/assets/projects/img-react-to-do-list-banner [high res].jpg"
+            },
+            "overview": {
+                "duration": "Jun 2024",
+                "websiteLink": "https://react-to-do-list-karan-bishts-projects.vercel.app/",
+                "githubRepositoryLink": "https://github.com/Karan-Bisht16/react-To_Do_List/",
+                "content": "A simple 'To-Do List' project made using react.<br />This is part of my <a href='https://www.udemy.com/course/the-complete-web-development-bootcamp/' target='_blank' rel='noopener noreferrer' class='italic'>The Complete 2024 Web Development Bootcamp</a> course, created by <a href='https://x.com/yu_angela' target='_blank' rel='noopener noreferrer' class='italic'>Dr. Angela Yu</a>.",
+                "role": "Sole Developer",
+                "tools": [
+                    "VS Code",
+                    "GitHub"
+                ]
+            },
+            "techStack": {
+                "label": "Tech Stack",
+                "list": [
+                    {
+                        "label": "Front-end",
+                        "list": [
+                            {
+                                "name": "React",
+                                "version": "18.3.1"
+                            }
+                        ]
+                    },
+                    {
+                        "label": "Deployment",
+                        "list": [
+                            {
+                                "name": "Vercel",
+                                "version": "latest"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "gallery": {
+                "label": "Gallery",
+                "images": [
+                    "/assets/projects/img-react-to-do-list-gallery 1.jpg",
+                    "/assets/projects/img-react-to-do-list-gallery 2.jpg",
+                    "/assets/projects/img-react-to-do-list-gallery 3.jpg"
+                ]
+            },
+            "features": {
+                "label": "Features",
+                "list": [
+                    "A simple to-do list app that allows users to add, remove, and mark tasks as completed.",
+                    "Fully responsive design that adapts seamlessly to various screen sizes for a smooth user experience."
+                ]
+            }
+        },
+        {
+            "id": "",
+            "version": "",
+            "height": 0,
+            "heightOnMobile": 0,
+            "title": "",
+            "locked": true,
+            "hidden": true,
+            "thumbnailImg": {
+                "lowResSrc": "",
+                "highResSrc": ""
+            },
+            "bannerImg": {
+                "lowResSrc": "",
+                "highResSrc": ""
+            },
+            "overview": {
+                "duration": "",
+                "websiteLink": "",
+                "githubRepositoryLink": "",
+                "content": "",
+                "role": "",
+                "collaborators": [
+                    {
+                        "label": "",
+                        "link": ""
+                    }
+                ],
+                "tools": [
+                    ""
+                ]
+            },
+            "developmentTimeline": {
+                "label": "",
+                "list": [
+                    {
+                        "caption": "",
+                        "title": "",
+                        "subtitle": "",
+                        "body": "",
+                        "displayWithLabel": {
+                            "[KEY]": ""
+                        },
+                        "displayWithOutLabel": [
+                            ""
+                        ]
+                    }
+                ]
+            },
+            "techStack": {
+                "label": "",
+                "list": [
+                    {
+                        "label": "",
+                        "list": [
+                            {
+                                "name": "",
+                                "version": ""
+                            }
+                        ]
+                    }
+                ]
+            },
+            "gallery": {
+                "label": "",
+                "images": [
+                    ""
+                ]
+            },
+            "features": {
+                "label": "",
+                "list": [
+                    ""
+                ]
+            },
+            "systemDesign": {
+                "label": "",
+                "link": ""
+            },
+            "libraries": {
+                "label": "",
+                "list": [
+                    {
+                        "name": "",
+                        "link": "",
+                        "description": ""
+                    }
+                ]
+            }
+        }
+    ]
+}

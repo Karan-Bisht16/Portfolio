@@ -1,0 +1,102 @@
+{
+    "heading": "This is my story",
+    "content": [
+        "Alright, let's do this one last time...",
+        "My name is <span class='text-violet-700 dark:text-white'>Karan Bisht</span>, and I’m a full-stack web developer. I thrive on challenges and constantly push myself to improve, as reflected in my academic achievements. My passion for art and music shapes my approach to development, allowing me to infuse creativity into every project.",
+        "<br/>",
+        "I believe growth comes from continuous learning and adaptation, which is why I’m always exploring new technologies and refining my skills. For me, web development is more than just code—it's a canvas where I blend technical expertise with artistic expression.",
+        "<br/>",
+        "Whether it’s designing visually engaging interfaces or crafting seamless user experiences, I aim to build digital solutions that are both functional and inspiring."
+    ],
+    "tabs": [
+        {
+            "heading": "Skills",
+            "list": [
+                {
+                    "caption": "Web Development",
+                    "heading": "Full-Stack Web Development",
+                    "title": "MERN Stack Developer",
+                    "body": "Experienced in building scalable and high-performance web applications using the MERN (MongoDB, Express.js, React, Node.js) stack. Proficient in designing RESTful APIs, managing databases, and implementing authentication. Skilled in state management, server-side rendering, and optimizing web performance."
+                },
+                {
+                    "caption": "UI/UX",
+                    "heading": "Designing Intuitive and Responsive Web Interfaces",
+                    "title": "UI/UX Designer",
+                    "body": "Adept at crafting user-centric designs that prioritize usability and accessibility. Skilled in wireframing, prototyping, and implementing responsive layouts using modern frameworks. Focused on delivering seamless user experiences through thoughtful design principles and interactive elements."
+                }
+            ]
+        },
+        {
+            "heading": "Education",
+            "list": [
+                {
+                    "caption": "2021 - 2025",
+                    "heading": "Bachelor of Technology in Information Technology from ADGITM",
+                    "title": "B Tech, IT",
+                    "subtitle": "Dr. Akhilesh Das Gupta Institute of Professional Studies, affiliated with GGSIPU",
+                    "url": "https://adgips.ac.in/",
+                    "body": "Pursued a Bachelor's degree in Information Technology, gaining in-depth knowledge of software development, algorithms, and system architecture. Hands-on experience with full-stack web development, cloud computing, and emerging technologies. Completed multiple projects demonstrating problem-solving and innovation.",
+                    "tagline": "New Delhi, India",
+                    "displayWithLabel": {
+                        "CGPA": 9.5
+                    },
+                    "displayWithoutLabel": []
+                },
+                {
+                    "caption": "Aug 2023 - Sep 2023",
+                    "heading": "IBM Summer Training Program - Full Stack Development",
+                    "title": "Apprenticeship",
+                    "subtitle": "IBM",
+                    "body": "Completed an intensive training program focused on Full Stack Development, covering both front-end and back-end technologies. Developed interactive web applications, including a Spotify-like web player as a capstone project, alongside UI designs for an e-commerce platform, a management system, and various other projects.",
+                    "tagline": "New Delhi, India"
+                },
+                {
+                    "caption": "2020 - 2021",
+                    "heading": "Higher Secondary (Grade 12) in Science (PCM) with Computer Science from LAPS",
+                    "body": "Specialized in Science (Physics, Chemistry, Mathematics) with Computer Science. Acquired a strong academic foundation in analytical reasoning, computational thinking, and problem-solving. Prepared for advanced studies in engineering and technology",
+                    "title": "Higher Secondary (Grade 12)",
+                    "subtitle": "Lt. Col. Mehar Little Angels Sr. Sec. School (LAPS)",
+                    "url": "https://www.laps.in/",
+                    "tagline": "New Delhi, India",
+                    "displayWithLabel": {
+                        "Percentage": "95.17%"
+                    }
+                },
+                {
+                    "caption": "2018 - 2019",
+                    "heading": "High School (Grade 10) from LAPS",
+                    "body": "Completed foundational education with a focus on core subjects such as Mathematics, Science, and English. Developed analytical, problem-solving, and communication skills essential for higher education.",
+                    "title": "High School (Grade 10)",
+                    "subtitle": "Lt. Col. Mehar Little Angels Sr. Sec. School (LAPS)",
+                    "tagline": "New Delhi, India",
+                    "displayWithLabel": {
+                        "Percentage": "96.17%"
+                    }
+                }
+            ]
+        },
+        {
+            "heading": "Experience",
+            "list": [
+                {
+                    "caption": "Oct 2024 - Present",
+                    "heading": "Full Stack Developer at Rash Technologies",
+                    "title": "Full Stack Developer",
+                    "subtitle": "Rash Technologies",
+                    "url": "https://www.rashtechnologies.com/",
+                    "body": "As an intern, I have gained hands-on experience in web development and product management. My responsibilities include designing and implementing new features, debugging and testing applications, and conducting research to develop innovative solutions for real-world challenges.",
+                    "tagline": "New Delhi, India"
+                },
+                {
+                    "caption": "May 2022 - Jul 2024",
+                    "heading": "Content Writer (Part-time) at Avant Garde",
+                    "title": "Content Writer (Part-time)",
+                    "subtitle": "Avant Garde",
+                    "body": "Responsible for developing compelling narratives for events and artworks, as well as drafting formal sponsorship proposals. Focused on creating engaging content tailored to enhance brand communication and outreach.",
+                    "tagline": "New Delhi, India"
+                }
+            ]
+        }
+    ],
+    "timelineCount": 2
+}

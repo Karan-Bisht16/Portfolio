@@ -1,0 +1,12 @@
+{
+    "navbarHeight": "80px",
+    "sidebarWidth": 360,
+    "sidebarWidthPx": "360px",
+    "sidebarMultiplier": 3,
+    "mobileBreakpoint": 768,
+    "transitionDuration": 600,
+    "transitionDurationMs": "600ms",
+    "transitionDurationClass": "duration-[600ms]",
+    "snackbarTimeout": 2000,
+    "mobileGalleryUpperLimit": 1
+}

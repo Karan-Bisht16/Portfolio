@@ -1,0 +1,51 @@
+{
+    "pageNav": [
+        {
+            "link": "about",
+            "text": "About Me"
+        },
+        {
+            "link": "projects",
+            "text": "My Projects"
+        },
+        {
+            "link": "contact",
+            "text": "Let’s Connect"
+        }
+    ],
+    "socialNav": [
+        {
+            "icon": "https://cdn.lordicon.com/mqwitsmv.json",
+            "href": "https://www.linkedin.com/in/karan-bisht1603/",
+            "text": "LinkedIn"
+        },
+        {
+            "icon": "https://cdn.lordicon.com/wzwygmng.json",
+            "href": "./assets/Karan Bisht - Resume.pdf",
+            "text": "Resume",
+            "download": true
+        }
+    ],
+    "socialLinks": [
+        {
+            "title": "GitHub",
+            "icon": "FaGithub",
+            "href": "https://github.com/Karan-Bisht16/"
+        },
+        {
+            "title": "Twitter",
+            "icon": "FaTwitter",
+            "href": "https://twitter.com/karan_b1603/"
+        },
+        {
+            "title": "Instagram",
+            "icon": "FaInstagram",
+            "href": "https://www.instagram.com/karan_b1603/"
+        },
+        {
+            "title": "Mail",
+            "icon": "HiOutlineMail",
+            "href": "mailto:karan161003@gmail.com"
+        }
+    ]
+}

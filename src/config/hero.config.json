@@ -1,0 +1,21 @@
+{
+    "scrambleConfig": {
+        "characterSet": "!#$%&0123456789?@ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz|",
+        "rotatingKeywords": [
+            "websites",
+            "ui/ux",
+            "web apps"
+        ],
+        "defaultKeyword": "websites",
+        "scrambleSpeed": 40,
+        "updateInterval": 4,
+        "multiplier": 1.5
+    },
+    "headline": {
+        "greeting": "Hi, my name is",
+        "name": "Karan Bisht"
+    },
+    "tagline": "I <i>design</i> and develop",
+    "bio": "I'm passionate about building intuitive, data-driven digital experiences that make a <strong>meaningful impact</strong>.<br />Let me show <i><strong>you</strong></i>...",
+    "aboutBtnLabel": "About me"
+}

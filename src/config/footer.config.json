@@ -1,0 +1,100 @@
+{
+    "version": "v3.0.0",
+    "updatedAt": "LAST UPDATED 16-03-2025",
+    "socials": {
+        "heading": "Socials",
+        "list": [
+            {
+                "icon": "FaLinkedin",
+                "title": "LinkedIn",
+                "link": "https://www.linkedin.com/in/karan-bisht-583918254/"
+            },
+            {
+                "icon": "FaGithub",
+                "title": "Github",
+                "link": "https://github.com/Karan-Bisht16"
+            },
+            {
+                "icon": "FaTwitter",
+                "title": "Twitter",
+                "link": "https://twitter.com/karan_b1603"
+            },
+            {
+                "icon": "FaInstagram",
+                "title": "Instagram",
+                "link": "https://instagram.com/karan_b1603"
+            }
+        ]
+    },
+    "projects": {
+        "heading": "Projects",
+        "list": [
+            {
+                "title": "SyncSpace",
+                "link": "https://syncspace-karan-bishts-projects.vercel.app/"
+            },
+            {
+                "title": "CodeSync",
+                "link": "https://code-sync-karan-bishts-projects.vercel.app/"
+            },
+            {
+                "title": "Sevakrit",
+                "link": "https://sevakritv3-karan-bishts-projects.vercel.app/"
+            }
+        ]
+    },
+    "inspirations": {
+        "heading": "Inspired by these amazing creators!",
+        "resources": [
+            {
+                "title": "yasio.dev",
+                "link": "https://yasio.dev/"
+            },
+            {
+                "title": "karanbisht.framer.ai",
+                "link": "https://karanbisht.framer.ai/"
+            },
+            {
+                "title": "joseph.cv",
+                "link": "https://joseph.cv"
+            },
+            {
+                "title": "sumanthsamala.com",
+                "link": "https://sumanthsamala.com"
+            },
+            {
+                "title": "seanw.org",
+                "link": "https://www.seanw.org"
+            },
+            {
+                "title": "malloryblackwell.com",
+                "link": "https://www.malloryblackwell.com"
+            },
+            {
+                "title": "anbui.co",
+                "link": "https://www.anbui.co"
+            },
+            {
+                "title": "lab.hakim.se",
+                "link": "https://lab.hakim.se"
+            },
+            {
+                "title": "posva.net",
+                "link": "https://posva.net/"
+            },
+            {
+                "title": "jgthms.com",
+                "link": "https://jgthms.com/"
+            },
+            {
+                "title": "sindresorhus.com",
+                "link": "https://sindresorhus.com/"
+            }
+        ]
+    },
+    "profile": {
+        "name": "Karan Bisht",
+        "email": "karan161003@gmail.com",
+        "tagline": "Your Idea,<br />My Code."
+    }
+}
