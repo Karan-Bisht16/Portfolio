@@ -6,9 +6,9 @@ import constantsJSON from '../config/constants.config.json';
 // importing contexts
 import { MobileContext } from '../contexts/mobile.context';
 // importing subcomponents
-import Dot from './sub-components/Dot';
-import Heading from './sub-components/Heading';
-import LazyImage from './sub-components/LazyImage';
+import Dot from './subcomponents/Dot';
+import Heading from './subcomponents/Heading';
+import LazyImage from './subcomponents/LazyImage';
 
 const ProjectStack = (props) => {
     const { project } = props;

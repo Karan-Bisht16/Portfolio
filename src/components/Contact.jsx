@@ -10,8 +10,8 @@ import constantsJSON from '../config/constants.config.json';
 import { MobileContext } from '../contexts/mobile.context';
 import { SnackbarContext } from '../contexts/snackbar.context';
 // importing components
-import Dot from './sub-components/Dot';
-import Heading from './sub-components/Heading';
+import Dot from './subcomponents/Dot';
+import Heading from './subcomponents/Heading';
 // importing assets
 import backgroundImage from '/assets/img-background.avif'
 

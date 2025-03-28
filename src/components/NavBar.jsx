@@ -12,8 +12,8 @@ import { ThemeContext } from '../contexts/theme.context';
 import { MobileContext } from '../contexts/mobile.context';
 import { SidebarContext } from '../contexts/sidebar.context';
 // importing subcomponents
-import Logo from './sub-components/Logo';
-import ToggleTheme from './sub-components/ToggleTheme';
+import Logo from './subcomponents/Logo';
+import ToggleTheme from './subcomponents/ToggleTheme';
 
 const SocialNav = (props) => {
     const { socialNav } = navbarJSON;

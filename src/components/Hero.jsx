@@ -9,8 +9,8 @@ import constantsJSON from '../config/constants.config.json';
 // importing contexts
 import { ThemeContext } from '../contexts/theme.context';
 // importing subcomponents
-import Dot from './sub-components/Dot';
-import LazyImage from './sub-components/LazyImage';
+import Dot from './subcomponents/Dot';
+import LazyImage from './subcomponents/LazyImage';
 // importing assets
 import lowResProfilePicture from '/assets/img-profile-picture [low res].jpeg';
 import highResProfilePicture from '/assets/img-profile-picture [high res].png';
