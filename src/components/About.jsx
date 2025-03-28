@@ -5,9 +5,9 @@ import constantsJSON from '../config/constants.config.json';
 // importing contexts
 import { SidebarContext } from '../contexts/sidebar.context';
 // importing subcomponents
-import Dot from './subcomponents/Dot';
-import Heading from './subcomponents/Heading';
-import LazyImage from './subcomponents/LazyImage';
+import Dot from './sub-components/Dot';
+import Heading from './sub-components/Heading';
+import LazyImage from './sub-components/LazyImage';
 // importing assets
 import lowResProfilePicture from '/assets/img-profile-picture [low res].jpeg';
 import highResProfilePicture from '/assets/img-profile-picture [high res].png';

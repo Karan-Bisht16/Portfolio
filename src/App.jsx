@@ -17,7 +17,7 @@ import Footer from './components/Footer';
 import Sidebar from './components/Sidebar';
 import SocialLinks from './components/SocialLinks';
 // importing subcomponents
-import Snackbar from './components/subcomponents/Snackbar.jsx';
+import Snackbar from './components/sub-components/Snackbar.js';
 
 const App = () => {
     const { theme } = useContext(ThemeContext);

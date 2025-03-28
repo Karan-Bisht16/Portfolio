@@ -14,8 +14,8 @@ import { ThemeContext } from '../contexts/theme.context';
 import { MobileContext } from '../contexts/mobile.context';
 import { SidebarContext } from '../contexts/sidebar.context';
 // importing components
-import Dot from '../components/subcomponents/Dot';
-import LazyImage from '../components/subcomponents/LazyImage';
+import Dot from '../components/sub-components/Dot';
+import LazyImage from '../components/sub-components/LazyImage';
 
 const InfoBlock = (props) => {
     const { heading, content } = props;

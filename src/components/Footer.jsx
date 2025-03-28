@@ -7,7 +7,7 @@ import constantsJSON from '../config/constants.config.json';
 // importing contexts
 import { SidebarContext } from '../contexts/sidebar.context';
 // importing subcomponents
-import Logo from './subcomponents/Logo';
+import Logo from './sub-components/Logo';
 
 const ProjectMenu = (props) => {
     const { projects, style } = props;

@@ -9,7 +9,7 @@ import constantsJSON from '../config/constants.config.json';
 // Importing contexts
 import { SidebarContext } from '../contexts/sidebar.context';
 // Importing subcomponents
-import Dot from './subcomponents/Dot';
+import Dot from './sub-components/Dot';
 
 const projectPathRegex = /^\/project\/[^/]+$/;
 
