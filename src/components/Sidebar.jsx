@@ -48,13 +48,12 @@ const Sidebar = () => {
 
                             <p className='flex text-base font-medium text-[--sidebar-subtitle] mt-1'>
                                 {url ? (
-                                    <a href={url} target='_blank' rel='noopener noreferrer' className='inline focus:outline-none'>
+                                    <a href={url} target='_blank' rel='noopener noreferrer' className='underline focus:outline-none'>
                                         {subtitle}
                                     </a>
                                 ) : (
                                     subtitle
                                 )}
-                                {url && <FaLink size={12} className='inline ml-1 mb-1' />}
                             </p>
 
                             <p className='text-sm italic text-[--sidebar-tagline]'>{tagline}</p>
