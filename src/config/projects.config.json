@@ -70,7 +70,7 @@
                         "label": "Front-end",
                         "list": [
                             {
-                                "name": "React.js",
+                                "name": "React",
                                 "version": "18.3.1"
                             },
                             {
@@ -226,7 +226,7 @@
                     {
                         "caption": "June 13, 2024 - June 22, 2024",
                         "title": "Initial Setup",
-                        "body": "Since this was my first major project using the MERN stack and React.js, I followed a YouTube series to set up the project, structure the folders, and apply best practices."
+                        "body": "Since this was my first major project using the MERN stack and React, I followed a YouTube series to set up the project, structure the folders, and apply best practices."
                     },
                     {
                         "caption": "June 26, 2024 - July 24, 2024",
@@ -257,7 +257,7 @@
                         "label": "Front-end",
                         "list": [
                             {
-                                "name": "React.js",
+                                "name": "React",
                                 "version": "18.3.1"
                             },
                             {
@@ -413,8 +413,8 @@
                 "highResSrc": "/assets/projects/img-codesync-banner [high res].jpg"
             },
             "overview": {
-                "duration": "Aug 2024 - Ongoing",
-                "websiteLink": "https://code-sync-karan-bishts-projects.vercel.app/",
+                "duration": "Aug 2024 - May 2025",
+                "websiteLink": "https://codesync-karan-bishts-projects.vercel.app/",
                 "githubRepositoryLink": "https://github.com/Karan-Bisht16/CodeSync/",
                 "content": "CodeSync is a <strong>real-time collaborative coding platform</strong> designed for educational use. It enables developers to work together seamlessly with live code editing, a collaborative whiteboard, and audio communication. The platform is built for efficiency and scalability, using <strong>React, TypeScript, Node.js (Express), and Socket.IO</strong>. It features role-based permissions, authentication via Firebase, and plans for complex file structures and live site sharing. This project serves as my major academic work for my 8th semester.",
                 "role": "Core Developer (Front-end & Back-end)",
@@ -459,6 +459,12 @@
                         "title": "Feature Additions",
                         "subtitle": "Enhancing Collaboration",
                         "body": "Improved the UI for mobile devices and added features such as hand raise functionality, synchronous caret movement, and a participant info side panel."
+                    },
+                    {
+                        "caption": "Apr 1, 2025 - May 19, 2025",
+                        "title": "Major Overhaul",
+                        "subtitle": "Updated UI and Added New Features",
+                        "body": "Refactored the entire project using TypeScript and updated the folder structure to incorporate workspaces. Improved the UI and added features such as Attribute-Based Access Control (ABAC), host controls, operational transformation using @codemirror/collab, customizable settings for personalization, and user authentication via Firebase."
                     }
                 ]
             },
@@ -470,15 +476,23 @@
                         "list": [
                             {
                                 "name": "React",
-                                "version": "18.3.1"
+                                "version": "19.0.0"
+                            },
+                            {
+                                "name": "Vite",
+                                "version": "6.3.1"
+                            },
+                            {
+                                "name": "Typescript",
+                                "version": "5.8.3"
                             },
                             {
                                 "name": "Material-UI",
-                                "version": "6.0.1"
+                                "version": "7.0.2"
                             },
                             {
                                 "name": "TailwindCSS",
-                                "version": "3.4.10"
+                                "version": "3.4.17"
                             }
                         ]
                     },
@@ -487,15 +501,15 @@
                         "list": [
                             {
                                 "name": "Node.js",
-                                "version": "22.13.1"
+                                "version": "22.14.1"
                             },
                             {
                                 "name": "Express.js",
-                                "version": "4.18.2"
+                                "version": "5.1.0"
                             },
                             {
                                 "name": "Socket.IO",
-                                "version": "4.7.2"
+                                "version": "4.8.1"
                             }
                         ]
                     },
@@ -520,7 +534,10 @@
                     "/assets/projects/img-codesync-gallery 1.jpg",
                     "/assets/projects/img-codesync-gallery 2.jpg",
                     "/assets/projects/img-codesync-gallery 3.jpg",
-                    "/assets/projects/img-codesync-gallery 4.jpg"
+                    "/assets/projects/img-codesync-gallery 4.jpg",
+                    "/assets/projects/img-codesync-gallery 5.jpg",
+                    "/assets/projects/img-codesync-gallery 6.jpg",
+                    "/assets/projects/img-codesync-gallery 7.jpg"
                 ]
             },
             "features": {
@@ -529,9 +546,14 @@
                     "A shared code editor (using CodeMirror) allowing users to write, edit, and view code collectively.",
                     "Implemented Socket.IO for code synchronization and chat functionalities.",
                     "Multiple programming languages supported (Java, C++, Python, JavaScript, TypeScript, etc).",
-                    "Console for immediate code execution (using code-compiler API).",
+                    "In-browser console for instant code execution (using Code Compiler API).",
                     "Collaborative whiteboard (using Tldraw) for brainstorming and visual explanations.",
-                    "Integrated chat for easy in-app communication."
+                    "Integrated chat for easy in-app communication.",
+                    "Prettier integration for code formatting.",
+                    "Participant management with role-based access control (using ABAC).",
+                    "Host controls for room management, including Room Lock (restrict who can join) and Edit Lock (restrict who can edit the code).",
+                    "User authentication and management using Firebase.",
+                    "Settings for customization like themes, editor preferences and notificatons etc."
                 ]
             },
             "systemDesign": {
@@ -560,6 +582,16 @@
                         "name": "Code-Compiler API",
                         "link": "https://rapidapi.com/realbrain-realbrain-default/api/code-compiler10",
                         "description": "Enables real-time code execution for multiple programming languages."
+                    },
+                    {
+                        "name": "Firebase",
+                        "link": "https://firebase.google.com/docs/auth",
+                        "description": "Used for user authentication and management."
+                    },
+                    {
+                        "name": "Prettier",
+                        "link": "https://prettier.io/",
+                        "description": "Used for code formatting in languages like Java, PHP, Rust, and more."
                     }
                 ]
             }
